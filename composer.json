@@ -1,0 +1,20 @@
+{
+    "name": "nwiry/url-shortener",
+    "description": "A Simple PHP URL Shortener",
+    "type": "project",
+    "require": {
+        "coffeecode/router": "^2.0"
+    },
+    "license": "GPLv3",
+    "autoload": {
+        "psr-4": {
+            "Nwiry\\UrlShortener\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diogo Cerqueira",
+            "email": "diogodeveloper@hotmail.com"
+        }
+    ]
+}
